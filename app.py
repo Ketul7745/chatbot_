@@ -12,9 +12,6 @@ if not GROQ_API_KEY:
 TAVILY_API_KEY = os.environ.get("TAVILY_API_KEY")
 if not TAVILY_API_KEY:
     raise ValueError("Tavily API key not found")
-# OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-# if not OPENAI_API_KEY:
-#     raise ValueError("OpenAI API key not found")
 
 print("API keys loaded")
 #setting up llms
