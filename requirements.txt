@@ -1,0 +1,12 @@
+langchain_groq
+langchain_openai
+langchain_community
+python-dotenv
+streamlit
+uvicorn
+fastapi
+pydantic
+langgraph
+PyPDF2
+sentence-transformers
+faiss-cpu

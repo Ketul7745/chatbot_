@@ -1,4 +1,10 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
+# GROQ_API_KEY = "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"
+# TAVILY_API_KEY = "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"
+# OPENAI_API_KEY = "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"
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 if not GROQ_API_KEY:
